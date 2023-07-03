@@ -12,7 +12,7 @@ import setting from '../images/setting.svg'
 
 function Sidebar() {
   return (
-    <div>
+    <div class='bg-white w-1/6'>
     <img src={logo}/>
     <div class='flex'>
     <img src={Union}/> <p>Create new Order</p>
@@ -20,7 +20,7 @@ function Sidebar() {
     <div class='flex bg-org max-w-fit'>
     <img src={dashboard}></img> <p class='text-white'>Dashboard</p>
     </div>
-      
+
     <div class='text-light-grey'>
     <div class='flex'>
     <img src={cube}></img> <p>Products</p>
