@@ -10,9 +10,9 @@ import img5 from '../images/5.svg'
 function Main() {
   return (
     <div>
-    <div class='flex gap-4 '>
+    <div class='flex gap-4 mt-5'>
     {/* first div */}
-<div class='bg-white rounded-lg w-1/4 flex justify-between'>
+<div class='bg-white rounded-lg w-1/4 flex justify-between p-4'>
     <div>
     <p>Customer</p>
     <p>1000</p>
@@ -23,7 +23,7 @@ function Main() {
     </div>
 </div>
 {/* second div */}
-<div class='bg-white rounded-lg w-1/4 flex justify-between'>
+<div class='bg-white rounded-lg w-1/4 flex justify-between p-4'>
     <div>
     <p>Orders</p>
     <p>1050</p>
@@ -34,7 +34,7 @@ function Main() {
     </div>
 </div>
 {/* third div */}
-<div class='bg-white rounded-lg w-1/4 flex justify-between'>
+<div class='bg-white rounded-lg w-1/4 flex justify-between p-4'>
     <div>
     <p>Revenue</p>
     <p>$50.000</p>
@@ -45,7 +45,7 @@ function Main() {
     </div>
 </div>
 {/* fourth div */}
-<div class='bg-white rounded-lg w-1/4 flex justify-between'>
+<div class='bg-white rounded-lg w-1/4 flex justify-between p-4'>
     <div>
     <p>New Customers</p>
     {/* rounded images  */}

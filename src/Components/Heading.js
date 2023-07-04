@@ -3,24 +3,26 @@ import Bell from '../images/bell.svg'
 import UserPic from '../images/Userpic.svg'
 function Heading() {
   return (
-    <div class='w-5/6'>
+    <div class='flex justify-between'>
     {/* search box */}
-    <div class='max-w-sm bg-white flex border-[#4F4F4F] rounded-lg p-4'>
-     <img src={search}/>
-     <input type="text" placeholder="Search" class='outline-none pl-2 text-light-grey'/> 
+    <div class='w-1/3 bg-white flex border-[#4F4F4F] border border-opacity-20 rounded-lg p-2'>
+     <img src={search} class='opacity-60'/>
+     <input type="text" placeholder="Search" class='outline-none pl-2 text-light-grey rounded-lg'/> 
     </div>
 
     {/* bell and user */}
-    <div class='flex'>
-      <img src={Bell}/>
-
-      <div class='flex'>
+    <div class='flex justify-evenly items-center gap-4'>
+    <div>
+    <img src={Bell}/>
+    </div>
+     
+      <div class='flex gap-2'>
       <div>
       <img src={UserPic}/>
       </div>
       <div>
       <p>Sumanto</p>
-      <p>Cashier</p>
+      <p class='text-light-grey font-normal text-xs'>Cashier</p>
       </div>
       </div>
 

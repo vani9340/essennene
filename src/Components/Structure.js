@@ -1,19 +1,23 @@
 import Heading from "./Heading";
+import Main from "./Main";
+import Sidebar from "./sidebar";
 function Structure() {
   return (
     <>
-    <div>
+    <div class='flex'>
+
     {/* side bar */}
-    <div class='w-1/6 bg-white sticky h-screen'>
-    hello
-    </div>
+  
+    <Sidebar/>
+   
+
     {/* main */}
-    <div class='w-5/6'>
+    <div class='w-5/6 mx-8 mt-8'>
     {/* heading div */}
     <div>
-<Heading/>
+    <Heading/>
     </div>
-
+    <Main/>
     {/* 4-box row */}
     
 
