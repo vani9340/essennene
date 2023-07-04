@@ -1,13 +1,16 @@
 import './App.css';
-import Heading from './Components/Heading';
-import Sidebar from './Components/sidebar';
+// import Sidebar from './Components/sidebar';
+// import Main from './Components/Main'
+// import Heading from './Components/Heading';
+import Structure from './Components/Structure';
+
 function App() {
   return (
     <div className="App">
-   
-    <Sidebar/>
-    <Heading/>
-
+   {/* <Sidebar/>
+   <Heading/> */}
+    {/* <Main/> */}
+  <Structure/>
 
     </div>
   );
