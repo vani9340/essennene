@@ -12,10 +12,10 @@ const Graph = () => {
         <p style={{fontSize:'16px',fontWeight:'700',width:'132px',marginTop:'5%',marginLeft:'4%'}}>Item Sold</p>
         <button className='btn btn-outline-warning dropdown-toggle butn' style={{marginLeft:'60%',marginTop:'5%',marginBottom:'2%'}}>Best Seller</button>
         <span style={{marginTop:'5%'}}>
-        <img src={ThreeDot} alt='icon'/>
+        <img src={ThreeDot} alt='icon' />
     </span>
     </div>
-    <img src={Divider} alt='divideSection'/>
+    <img src={Divider} alt='divideSection' class='w-[200%]'/>
     <div className='parentdiv'>
         <div className='div1'>
         <p style={{fontSize:'24px',fontWeight:'700',marginRight:'238px',marginBottom:'2%'}}>$50.000</p>

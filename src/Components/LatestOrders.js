@@ -5,13 +5,14 @@ import two from "../images/Rectangle1.png";
 import three from "../images/Rectangle2.png";
 import four from "../images/Rectangle3.png";
 import five from "../images/Rectangle4.png";
+import divider from '../images/Divider.png'
 import Scroll from "../images/Scroll.png";
 
 
 const LatestOrders = () => {
   return (
     <div className="parent mt-8 rounded-lg ">
-      <div className="performer p-3 w-2/5" style={{height: "622px" }}>
+      <div className="performer p-3 w-2/5" style={{height: "622px"}}>
        <div class='flex justify-between'> <p
           style={{
             display: "inline-block",
@@ -34,6 +35,7 @@ const LatestOrders = () => {
         </button>
         </div>
         <div class='flex flex-col gap-4'>
+        <img src={divider} class='mt-2 mb-[-20px]'/>
         <div className="performerData flex gap-2" style={{ marginTop: "20px" }}>
           <div>
             <img src={one} alt="person1" />
@@ -309,7 +311,7 @@ const LatestOrders = () => {
 
         {/* latest order */}
       </div>
-      <div className="latestOrder w-3/5" style={{ height: "622px" }}>
+      <div className="latestOrder w-3/5 py-2 px-3" style={{ height: "622px" }}>
         <p
           style={{
             fontSize: "17px",

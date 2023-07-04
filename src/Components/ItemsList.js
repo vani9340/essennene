@@ -12,8 +12,8 @@ const ItemsList = () => {
   return (
     <>
     <div className='box' class='rounded-lg'>
-    <div className='header'>
-        <p style={{fontSize:'16px',fontWeight:'700'}}>Item Sold</p>
+    <div className='header p-3'>
+        <p style={{fontSize:'16px',fontWeight:'700'}} class='pt-2'>Item Sold</p>
         <button className='btn btn-outline-warning dropdown-toggle'>Best Seller</button>
     </div>
     <img src={Divider} alt='divideSection'/>
