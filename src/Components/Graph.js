@@ -10,7 +10,7 @@ const Graph = () => {
     <div className='Main-box rounded-lg'>
     <div className='header'>
         <p style={{fontSize:'16px',fontWeight:'700',width:'132px',marginTop:'5%',marginLeft:'4%'}}>Item Sold</p>
-        <button className='btn btn-outline-warning dropdown-toggle butn' style={{marginLeft:'60%',marginTop:'5%'}}>Best Seller</button>
+        <button className='btn btn-outline-warning dropdown-toggle butn' style={{marginLeft:'60%',marginTop:'5%',marginBottom:'2%'}}>Best Seller</button>
         <span style={{marginTop:'5%'}}>
         <img src={ThreeDot} alt='icon'/>
     </span>
@@ -18,11 +18,11 @@ const Graph = () => {
     <img src={Divider} alt='divideSection'/>
     <div className='parentdiv'>
         <div className='div1'>
-        <p style={{fontSize:'24px',fontWeight:'700',marginRight:'238px'}}>$50.000</p>
+        <p style={{fontSize:'24px',fontWeight:'700',marginRight:'238px',marginBottom:'2%'}}>$50.000</p>
         <p style={{marginRight:'400px',width:'117px',height:'18px',fontSize:'14px',marginTop:'-18px'}}>Earning Overtime</p>
         </div>
         <div className='div2'>
-            <p style={{fontSize:'24px',fontWeight:'700',marginLeft:'218px'}}>1050</p>
+            <p style={{fontSize:'24px',fontWeight:'700',marginLeft:'228px',marginBottom:'2%'}}>1050</p>
             <p style={{width:'117px',height:'18px',fontSize:'14px',marginTop:'-18px',marginLeft:'224px'}}>Total Order</p>
         </div>
     </div>
@@ -60,7 +60,10 @@ const Graph = () => {
         <span><img src={Chart} alt='line' /></span>
     </div>
     </div>
-    <img src={graph}/>
+    <div className='imgDiv'>
+      <img src={graph} className='graphimg' style={{marginLeft:'109px',marginTop:'585px'}}/>
+    </div>
+    
     {/* <div className='days'>
         <p>Sun</p>
         <p>Mon</p>

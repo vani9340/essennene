@@ -10,12 +10,11 @@ import Scroll from "../images/Scroll.png";
 
 const LatestOrders = () => {
   return (
-    <div className="parent mt-8">
-      <div className="performer" style={{ width: "400px", height: "622px" }}>
-        <p
+    <div className="parent mt-8 rounded-lg ">
+      <div className="performer p-3 w-2/5" style={{height: "622px" }}>
+       <div class='flex justify-between'> <p
           style={{
             display: "inline-block",
-            marginRight: "180px",
             fontWeight: "bold",
             fontSize: "17px",
             marginTop: "10px",
@@ -33,17 +32,21 @@ const LatestOrders = () => {
         >
           Weekly
         </button>
-        <div className="performerData" style={{ marginTop: "20px" }}>
+        </div>
+        <div class='flex flex-col gap-4'>
+        <div className="performerData flex gap-2" style={{ marginTop: "20px" }}>
           <div>
             <img src={one} alt="person1" />
           </div>
           <div>
+            
+          </div>
+          <div>
             <p
               style={{
                 fontSize: "14px",
                 fontWeight: "bold",
-                marginLeft: "-68px",
-                marginTop: "4px",
+              
               }}
             >
               Suraj Tiwari
@@ -52,260 +55,261 @@ const LatestOrders = () => {
               style={{
                 fontSize: "12px",
                 color: "#9A9AB0",
-                marginTop: "-15px",
-                marginLeft: "7px",
+                
+            
               }}
             >
               C&F Manager | Uttar pradesh
             </p>
           </div>
-          <div>
+          <div class='ml-32'>
             <p
-              style={{ color: "#9A9AB0", fontSize: "12px", marginLeft: "90px" }}
+              style={{ color: "#9A9AB0", fontSize: "12px" }}
             >
               Order Total
             </p>
             <p
               style={{
                 fontSize: "14px",
-                fontWeight: "700",
-                marginTop: "-12px",
+                fontWeight: "700", 
                 color: "orange",
-                marginLeft: "90px",
               }}
             >
               $434332.00
             </p>
           </div>
         </div>
-        <div className="performerData">
+        <div className="performerData flex gap-2">
           <div>
             <img src={two} alt="person2" />
           </div>
           <div>
-            <p
-              style={{
-                fontSize: "14px",
-                fontWeight: "bold",
-                marginLeft: "-75px",
-                marginTop: "4px",
-              }}
-            >
-              Suraj Tiwari
-            </p>
-            <p
-              style={{
-                fontSize: "12px",
-                color: "#9A9AB0",
-                marginTop: "-15px",
-                marginLeft: "7px",
-              }}
-            >
-              C&F Manager | Uttar pradesh
-            </p>
-          </div>
-          <div>
-            <p
-              style={{ color: "#9A9AB0", fontSize: "12px", marginLeft: "90px" }}
-            >
-              Order Total
-            </p>
-            <p
-              style={{
-                fontSize: "14px",
-                fontWeight: "700",
-                marginTop: "-12px",
-                color: "orange",
-                marginLeft: "90px",
-              }}
-            >
-              $434332.00
-            </p>
-          </div>
+            
+            </div>
+            <div>
+              <p
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "bold",
+                
+                }}
+              >
+                Suraj Tiwari
+              </p>
+              <p
+                style={{
+                  fontSize: "12px",
+                  color: "#9A9AB0",
+                  
+              
+                }}
+              >
+                C&F Manager | Uttar pradesh
+              </p>
+            </div>
+            <div class='ml-32'>
+              <p
+                style={{ color: "#9A9AB0", fontSize: "12px" }}
+              >
+                Order Total
+              </p>
+              <p
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "700", 
+                  color: "orange",
+                }}
+              >
+                $434332.00
+              </p>
+            </div>
         </div>
-        <div className="performerData">
+        <div className="performerData flex gap-2">
           <div>
             <img src={three} alt="person3" />
           </div>
           <div>
-            <p
-              style={{
-                fontSize: "14px",
-                fontWeight: "bold",
-                marginLeft: "-117px",
-                marginTop: "4px",
-              }}
-            >
-              John
-            </p>
-            <p
-              style={{
-                fontSize: "12px",
-                color: "#9A9AB0",
-                marginTop: "-15px",
-                marginLeft: "7px",
-              }}
-            >
-              C&F Manager | Uttar pradesh
-            </p>
-          </div>
-          <div>
-            <p
-              style={{ color: "#9A9AB0", fontSize: "12px", marginLeft: "90px" }}
-            >
-              Order Total
-            </p>
-            <p
-              style={{
-                fontSize: "14px",
-                fontWeight: "700",
-                marginTop: "-12px",
-                color: "orange",
-                marginLeft: "90px",
-              }}
-            >
-              $434332.00
-            </p>
-          </div>
+            
+            </div>
+            <div>
+              <p
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "bold",
+                
+                }}
+              >
+                Suraj Tiwari
+              </p>
+              <p
+                style={{
+                  fontSize: "12px",
+                  color: "#9A9AB0",
+                  
+              
+                }}
+              >
+                C&F Manager | Uttar pradesh
+              </p>
+            </div>
+            <div class='ml-32'>
+              <p
+                style={{ color: "#9A9AB0", fontSize: "12px" }}
+              >
+                Order Total
+              </p>
+              <p
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "700", 
+                  color: "orange",
+                }}
+              >
+                $434332.00
+              </p>
+            </div>
         </div>
-        <div className="performerData">
+        <div className="performerData flex gap-2">
           <div>
             <img src={four} alt="person4" />
           </div>
           <div>
-            <p
-              style={{
-                fontSize: "14px",
-                fontWeight: "bold",
-                marginLeft: "-13px",
-                marginTop: "4px",
-              }}
-            >
-              Rakesh Jhunjhunwala
-            </p>
-            <p
-              style={{
-                fontSize: "12px",
-                color: "#9A9AB0",
-                marginTop: "-15px",
-                marginLeft: "7px",
-              }}
-            >
-              C&F Manager | Uttar pradesh
-            </p>
-          </div>
-          <div>
-            <p
-              style={{ color: "#9A9AB0", fontSize: "12px", marginLeft: "90px" }}
-            >
-              Order Total
-            </p>
-            <p
-              style={{
-                fontSize: "14px",
-                fontWeight: "700",
-                marginTop: "-12px",
-                color: "orange",
-                marginLeft: "90px",
-              }}
-            >
-              $434332.00
-            </p>
-          </div>
+            
+            </div>
+            <div>
+              <p
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "bold",
+                
+                }}
+              >
+                Suraj Tiwari
+              </p>
+              <p
+                style={{
+                  fontSize: "12px",
+                  color: "#9A9AB0",
+                  
+              
+                }}
+              >
+                C&F Manager | Uttar pradesh
+              </p>
+            </div>
+            <div class='ml-32'>
+              <p
+                style={{ color: "#9A9AB0", fontSize: "12px" }}
+              >
+                Order Total
+              </p>
+              <p
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "700", 
+                  color: "orange",
+                }}
+              >
+                $434332.00
+              </p>
+            </div>
         </div>
-        <div className="performerData">
+        <div className="performerData flex gap-2">
           <div>
             <img src={one} alt="person5" />
           </div>
           <div>
-            <p
-              style={{
-                fontSize: "14px",
-                fontWeight: "bold",
-                marginLeft: "-66px",
-                marginTop: "4px",
-              }}
-            >
-              Aman trivedi
-            </p>
-            <p
-              style={{
-                fontSize: "12px",
-                color: "#9A9AB0",
-                marginTop: "-15px",
-                marginLeft: "7px",
-              }}
-            >
-              C&F Manager | Uttar pradesh
-            </p>
-          </div>
-          <div>
-            <p
-              style={{ color: "#9A9AB0", fontSize: "12px", marginLeft: "90px" }}
-            >
-              Order Total
-            </p>
-            <p
-              style={{
-                fontSize: "14px",
-                fontWeight: "700",
-                marginTop: "-12px",
-                color: "orange",
-                marginLeft: "90px",
-              }}
-            >
-              $434332.00
-            </p>
-          </div>
+            
+            </div>
+            <div>
+              <p
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "bold",
+                
+                }}
+              >
+                Suraj Tiwari
+              </p>
+              <p
+                style={{
+                  fontSize: "12px",
+                  color: "#9A9AB0",
+                  
+              
+                }}
+              >
+                C&F Manager | Uttar pradesh
+              </p>
+            </div>
+            <div class='ml-32'>
+              <p
+                style={{ color: "#9A9AB0", fontSize: "12px" }}
+              >
+                Order Total
+              </p>
+              <p
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "700", 
+                  color: "orange",
+                }}
+              >
+                $434332.00
+              </p>
+            </div>
         </div>
-        <div className="performerData">
+        <div className="performerData flex gap-2">
           <div>
             <img src={five} alt="person5" />
           </div>
           <div>
-            <p
-              style={{
-                fontSize: "14px",
-                fontWeight: "bold",
-                marginLeft: "-66px",
-                marginTop: "4px",
-              }}
-            >
-              Rakesh singh
-            </p>
-            <p
-              style={{
-                fontSize: "12px",
-                color: "#9A9AB0",
-                marginTop: "-15px",
-                marginLeft: "7px",
-              }}
-            >
-              C&F Manager | Uttar pradesh
-            </p>
-          </div>
-          <div>
-            <p
-              style={{ color: "#9A9AB0", fontSize: "12px", marginLeft: "90px" }}
-            >
-              Order Total
-            </p>
-            <p
-              style={{
-                fontSize: "14px",
-                fontWeight: "700",
-                marginTop: "-12px",
-                color: "orange",
-                marginLeft: "90px",
-              }}
-            >
-              $434332.00
-            </p>
+            
+            </div>
+            <div>
+              <p
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "bold",
+                
+                }}
+              >
+                Suraj Tiwari
+              </p>
+              <p
+                style={{
+                  fontSize: "12px",
+                  color: "#9A9AB0",
+                  
+              
+                }}
+              >
+                C&F Manager | Uttar pradesh
+              </p>
+            </div>
+            <div class='ml-32'>
+              <p
+                style={{ color: "#9A9AB0", fontSize: "12px" }}
+              >
+                Order Total
+              </p>
+              <p
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "700", 
+                  color: "orange",
+                }}
+              >
+                $434332.00
+              </p>
+            </div>
           </div>
         </div>
         
+
+        {/* latest order */}
       </div>
-      <div className="latestOrder" style={{ width: "696px", height: "622px" }}>
+      <div className="latestOrder w-3/5" style={{ height: "622px" }}>
         <p
           style={{
             fontSize: "17px",
@@ -418,6 +422,7 @@ const LatestOrders = () => {
           </tbody>
         </table>
       </div>
+      
     </div>
   );
 };
