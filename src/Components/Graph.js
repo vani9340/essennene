@@ -3,7 +3,7 @@ import './Graph.css'
 import Divider from '../images/Separator.png'
 import ThreeDot from '../images/Button.png'
 import Chart from '../images/ChartLine.svg'
-import graph from '../images/'
+import graph from '../images/Day.svg'
 const Graph = () => {
   return (
     <>
@@ -60,8 +60,8 @@ const Graph = () => {
         <span><img src={Chart} alt='line' /></span>
     </div>
     </div>
-    <img/>
-    <div className='days'>
+    <img src={graph}/>
+    {/* <div className='days'>
         <p>Sun</p>
         <p>Mon</p>
         <p>Tue</p>
@@ -69,7 +69,7 @@ const Graph = () => {
         <p style={{fontSize:'14px',fontWeight:'700'}} className='highlight'>Thu</p>
         <p>Fri</p>
         <p>Sat</p>
-    </div>
+    </div> */}
     
     </div>
     </>
