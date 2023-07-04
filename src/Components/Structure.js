@@ -1,4 +1,5 @@
 import Heading from "./Heading";
+import LatestOrders from "./LatestOrders";
 import Main from "./Main";
 import Sidebar from "./sidebar";
 function Structure() {
@@ -23,7 +24,10 @@ function Structure() {
 
     {/* 2-box - graph and list */}
     </div>
+    {/* latest order list */}
+  
     </div>
+ 
     </>
   );
 }
