@@ -1,0 +1,30 @@
+.parent{
+    display: flex;
+
+}
+
+.performer{
+    width: 30%;
+    background-color: white;
+    font-size: 14px;
+   font-weight: 400;
+   /* margin-left: 27%; */
+
+}
+
+.latestOrder{
+   width: 100%;
+   margin-left: 2%;
+   background-color: white;
+   font-size: 14px;
+   font-weight: 400;
+   
+}
+
+.performerData{
+    padding: 0;
+    display: flex;
+    margin-left: 10px;
+}
+
+

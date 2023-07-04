@@ -1,0 +1,19 @@
+.box{
+    width: 696px;
+    height: 611px;
+    /* border-radius: 8px; */
+    background-color: white;
+ 
+}
+
+.butn{
+    height:40px;
+    width: 132px;
+    margin-top: 5%;
+    margin-left: 100%;
+}
+
+.imgdot{
+    margin-top: 5%;
+    margin-left: 5%;
+}

@@ -1,0 +1,38 @@
+.box{
+    height: 622px;
+    width: 400px;
+    /* border: 1.5px solid black; */
+    /* border-radius: 8px; */
+    background-color: white;
+}
+
+.header{
+    display: flex;
+}
+
+.header button{
+    margin-left: 45%;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.name{
+    width: 151px;
+    height: 19px;
+    margin-left: 1%;
+    margin-top: 5%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.price{
+    margin-top: 5%;
+    color: #92929D;
+    font-size: 16px;
+    margin-left: 22%;
+}
